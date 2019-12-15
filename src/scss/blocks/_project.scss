@@ -1,14 +1,13 @@
 .project{
     &__title{
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 170px;
         color: #2c4058;
         font-family: sans-serif;
         font-size: 44px;
         font-weight: 700;
         line-height: 22px;
         text-transform: uppercase;
-        white-space: nowrap;
     }
     &First{
         max-width: 100%;
@@ -17,6 +16,6 @@
         width: 630px;
     }
     &First:hover{
-        top:-30px;
+        top:-70px;
     }
 }

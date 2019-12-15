@@ -1,0 +1,40 @@
+* {
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+
+.HEADER {
+  background-image: -webkit-gradient(linear, left top, right top, from(#55b6fe), to(#7e5dfb)), url(/css/img/tu-tram-pham.png);
+  background-image: -webkit-linear-gradient(left, #55b6fe, #7e5dfb), url(/css/img/tu-tram-pham.png);
+  background-image: -o-linear-gradient(left, #55b6fe, #7e5dfb), url(/css/img/tu-tram-pham.png);
+  background-image: linear-gradient(to right, #55b6fe, #7e5dfb), url(/css/img/tu-tram-pham.png);
+  background-size: cover;
+  width: 100%;
+  height: 800px; }
+
+.PROJECTS {
+  padding-top: 58px;
+  padding-bottom: 140px; }
+
+.nowrap {
+  white-space: nowrap; }
+
+.text-center {
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+
+.pading-210 {
+  padding-bottom: 210px; }
+
+.color {
+  color: #2c4058; }
+
+.colorw {
+  color: white; }
+
+.polosa {
+  width: 100px;
+  border: 1px solid #2c4058;
+  margin-bottom: 42px; }
