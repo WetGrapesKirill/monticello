@@ -1,0 +1,142 @@
+.footer {
+  background-image: -webkit-linear-gradient(45deg, #55b7ff 0%, #7e5aff 100%);
+  background-image: -o-linear-gradient(45deg, #55b7ff 0%, #7e5aff 100%);
+  background-image: linear-gradient(45deg, #55b7ff 0%, #7e5aff 100%);
+  position: relative; }
+  .footer::before {
+    background: url(/dist/img/footer_background.png) no-repeat;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    bottom: 0;
+    left: 0; }
+  .footer__wrapper {
+    padding-top: 202px; }
+    @media screen and (max-width: 767px) {
+      .footer__wrapper {
+        padding-top: 600px; } }
+  .footer__top {
+    margin-bottom: 34px; }
+    @media screen and (max-width: 767px) {
+      .footer__top {
+        margin-bottom: 0px; } }
+  .footer__socials {
+    max-width: 162px;
+    width: 100%;
+    margin-left: 9px; }
+    @media screen and (max-width: 1599px) {
+      .footer__socials {
+        margin-left: 0px; } }
+    @media screen and (max-width: 767px) {
+      .footer__socials {
+        margin-bottom: 30px;
+        max-width: 200px; } }
+  .footer__circle {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media screen and (max-width: 767px) {
+      .footer__circle {
+        width: 48px;
+        height: 48px; } }
+  .footer__circle:first-child:hover {
+    background-color: #fff;
+    -webkit-transition: 0.5 ease-in;
+    -o-transition: 0.5 ease-in;
+    transition: 0.5 ease-in; }
+  .footer__circle:nth-child(2):hover {
+    background-color: #fff;
+    -webkit-transition: 0.5 ease-in;
+    -o-transition: 0.5 ease-in;
+    transition: 0.5 ease-in; }
+  .footer__circle:nth-child(3):hover {
+    background-color: #fff;
+    -webkit-transition: 0.5 ease-in;
+    -o-transition: 0.5 ease-in;
+    transition: 0.5 ease-in; }
+  .footer__circle:first-child:hover .footer__social-icon:first-child {
+    color: #4267B2; }
+  .footer__circle:nth-child(2):hover .footer__social-icon:first-child {
+    color: #1da1f2; }
+  .footer__circle:nth-child(3):hover .footer__social-icon:first-child {
+    color: #8a3ab9; }
+  .footer__bottom {
+    padding-bottom: 208px; }
+    @media screen and (max-width: 767px) {
+      .footer__bottom {
+        padding-bottom: 105px; } }
+    @media screen and (max-width: 575px) {
+      .footer__bottom {
+        padding-bottom: 50px; } }
+  .footer__social-icon {
+    font-size: 16px;
+    color: #fff; }
+    @media screen and (max-width: 767px) {
+      .footer__social-icon {
+        font-size: 20px; } }
+  .footer__author {
+    margin-left: 19px;
+    text-decoration: none; }
+    @media screen and (max-width: 767px) {
+      .footer__author {
+        margin-left: 0; } }
+  .footer__info {
+    color: white;
+    font-family: 'GothamBook';
+    font-size: 14px;
+    display: inline-block;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 19px;
+    padding-bottom: 3px;
+    padding-top: 3px; }
+    @media screen and (max-width: 767px) {
+      .footer__info {
+        border: none;
+        padding: 0; } }
+    @media screen and (max-width: 575px) {
+      .footer__info {
+        margin-bottom: 10px; } }
+  .footer__author-info {
+    display: inline-block;
+    color: white;
+    font-family: 'GothamBook';
+    font-size: 14px; }
+  @media screen and (max-width: 767px) {
+    .footer__heart-icon {
+      padding-right: 5px;
+      text-decoration: none; } }
+  @media screen and (max-width: 575px) {
+    .footer__heart-icon {
+      padding-right: 0px; } }
+  .footer__line {
+    display: inline-block;
+    width: 41px;
+    height: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    margin-left: 14px;
+    margin-top: 5px; }
+  .footer__link {
+    text-decoration: none;
+    display: inline-block; }
+    @media screen and (max-width: 767px) {
+      .footer__link {
+        padding-top: 30px;
+        margin-bottom: 30px; } }
+  .footer__author:hover {
+    cursor: pointer; }
+  .footer__author:hover .footer__heart-icon {
+    color: #b30000; }

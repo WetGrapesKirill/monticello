@@ -1,4 +1,4 @@
-<!-- <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 
     <symbol id="icon-monticello-logo" viewBox="0 0 143 32">
         <title>monticello-logo</title>
@@ -18,7 +18,7 @@
             d="M11.654 16h9.086v0.395h-9.086v-0.395zM16 11.654h0.395v9.086h-0.395v-9.086z"></path>
     </symbol>
 
-</svg> -->
+</svg>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,7 +74,7 @@
                     <img src="./css/img/Back.png" class="projectSecond bg1" alt="bg">
                 </div>
                 <div class="col-5">
-                    <div>
+                    <div class="alltexte">
                         <h2 class="subtitle gotmmedium">One World</h2>
                         <h3 class="title gotmmedium">Trade Center</h3>
                         <p class="text gotmmedium">Increasing prosperity in our lives can be accomplished by having the
@@ -92,16 +92,19 @@
             </div>
             <div class="row">
                 <div class="col-5">
-                    <h2 class="subtitle gotmmedium">International</h2>
-                    <h3 class="title gotmmedium nowrap">Commerce Centre</h3>
-                    <p class="text gotmmedium">Successful businesses have many things in common, today we’ll look at the
-                        big ‘R’ of
-                        recognition and how a digital advertising network may help.</p>
-                    <div class="text-center"><a href="javascript:void(0)" class="btn-6 gotmmedium">MORE DETAILS
-                            <span></span></a>
+                    <div class="alltexte">
+                        <h2 class="subtitle gotmmedium">International</h2>
+                        <h3 class="title gotmmedium nowrap">Commerce Centre</h3>
+                        <p class="text gotmmedium">Successful businesses have many things in common, today we’ll look at
+                            the
+                            big ‘R’ of
+                            recognition and how a digital advertising network may help.</p>
+                        <div class="text-center"><a href="javascript:void(0)" class="btn-6 gotmmedium">MORE DETAILS
+                                <span></span></a>
+                        </div>
+                        <a href="javascript:void(0)" class="color"><i class="fas fa-map-marker-alt"></i>Hong Kong - 1588
+                            Feet</a>
                     </div>
-                    <a href="javascript:void(0)" class="color"><i class="fas fa-map-marker-alt"></i>Hong Kong - 1588
-                        Feet</a>
                 </div>
                 <div class="col-7">
                     <img src="./css/img/photos-hous.png" class="projectFirst " alt="img">
@@ -118,13 +121,13 @@
                     <div class="row">
                         <div class="col-12">
                             <hr class="news__line" />
-                            <h2 class="news__title gothambold1">Latest News</h2>
+                            <h2 class="news__title gotmmedium">Latest News</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="swiper-container">
+                        <div class="swiper-container news__slider-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                                <div class="swiper-slide news__slide">
                                     <div class="news__slide-top"><img class="news__slide-img" src="./css/img/news_1.png"
                                             alt="img" />
                                         <svg class="icons icons--news news__slide-img--hover">
@@ -145,7 +148,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide news__slide">
                                     <div class="news__slide">
                                         <div class="news__slide-top"><img class="news__slide-img"
                                                 src="./css/img/news_2.png" alt="img" />
@@ -168,7 +171,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide news__slide">
                                     <div class="news__slide">
                                         <div class="news__slide-top"><img class="news__slide-img"
                                                 src="./css/img/news_3.png" alt="img" />
@@ -191,7 +194,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide news__slide">
                                     <div class="news__slide">
                                         <div class="news__slide-top"><img class="news__slide-img"
                                                 src="./css/img/news_1.png" alt="img" />
@@ -210,10 +213,10 @@
                                                 <h4 class="news__slide-subtitle">Isaac Dunn</h4>
                                                 <p class="news__slide-date">09 Feb 2017</p>
                                             </div>
-                                        </div>
+                                        </div>`
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide news__slide">
                                     <div class="news__slide">
                                         <div class="news__slide-top"><img class="news__slide-img"
                                                 src="./css/img/news_2.png" alt="img" />
@@ -238,12 +241,15 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-button-prev-go news__slide-arrow-prev"><i
+                                class="fas fa-angle-left news__slide-arrow"></i></div>
+                        <div class="swiper-button-next-go news__slide-arrow-next"><i
+                                class="fas fa-angle-right news__slide-arrow">
+                            </i></div>
                     </div>
-                    <div class="swiper-button-prev-go"><i class="fas fa-angle-left button-arrow-left"></i></div>
-                    <div class="swiper-button-next-go"><i class="fas fa-angle-right button-arrow-left"> </i></div>
                 </div>
                 <div class="news__slide-utilities">
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination news__slide-pagination"></div>
                 </div>
             </div>
         </div>
@@ -254,43 +260,56 @@
                 <div class="gallery__heading">
                     <div class="row">
                         <div class="col-12">
-                            <hr class="polosa" />
+                            <hr class="gallery__line" />
                             <h2 class="gallery__title">Gallery</h2>
                         </div>
                     </div>
                 </div>
                 <div class="gallery__panel">
                     <div class="row no-gutters">
-                        <div class="col-6">
-                            <div class="gallery__item"><span class="gallery__link"><img class="gallery__img"
+                        <div
+                            class="col-xl-6 offset-xl-0 col-lg-8 offset-lg-2 mb-lg-2 col-md-10 offset-md-1 mb-md-2 mb-sm-2 col-sm-10 offset-sm-1 col-12 mb-2">
+                            <div class="gallery__item"><span class="gallery__link"
+                                    data-caption="Photo by Burst from Pexels"><img class="gallery__img"
                                         src="./css/img/gallery_1.png" alt="img" /><img class="gallery__img--hover"
-                                        src="./css/img/gallery_360.png" alt="img" /></span></div>
+                                        src="./css/img/gallery_360.png" alt="img" /></span>
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <div class="row no-gutters mb-2 ml-1">
-                                <div class="col-6">
-                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"><img
-                                                class="gallery__img" src="./css/img/gallery_2.png" alt="img" /><img
+                        <div
+                            class="col-xl-6 offset-xl-0 col-lg-8 offset-lg-2 col-md-10 offset-md-1 mb-sm-2 col-sm-10 offset-sm-1 col-12 mb-2 mb-md-0">
+                            <div class="row no-gutters mb-lg-2 ml-xl-1 ml-lg-0 mb-md-2">
+                                <div
+                                    class="col-xl-6 col-lg-6 col-md-6 pr-xl-0 pr-lg-1 pr-md-1 pr-sm-1 col-sm-6 col-12 mb-2 mb-md-0">
+                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"
+                                            data-caption="Photo by Juhasz Imre from Pexels"><img class="gallery__img"
+                                                src="./css/img/gallery_2.png" alt="img" /><img
                                                 class="gallery__img--hover" src="./css/img/gallery_360.png"
                                                 alt="img" /></span></div>
                                 </div>
-                                <div class="col-6 pl-1">
-                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"><img
-                                                class="gallery__img" src="./css/img/gallery_3.png" alt="img" /><img
+                                <div
+                                    class="col-xl-6 col-lg-6 col-md-6 pr-xl-0 pl-lg-1 pl-md-1 pl-sm-1 col-sm-6 col-12 mb-2 mb-md-0">
+                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"
+                                            data-caption="Photo by Pixabay from Pexels"><img class="gallery__img"
+                                                src="./css/img/gallery_3.png" alt="img" /><img
                                                 class="gallery__img--hover" src="./css/img/gallery_360.png"
                                                 alt="img" /></span></div>
                                 </div>
                             </div>
-                            <div class="row no-gutters ml-1">
-                                <div class="col-6">
-                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"><img
-                                                class="gallery__img" src="./css/img/gallery_4.png" alt="img" /><img
+                            <div class="row no-gutters ml-xl-1 ml-lg-0">
+                                <div
+                                    class="col-xl-6 col-lg-6 col-md-6 pr-xl-0 pr-lg-1 pr-md-1 pr-sm-1 col-sm-6 col-12 mb-2 mb-md-0">
+                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"
+                                            data-caption="Photo by Irina Iriser from Pexels"><img class="gallery__img"
+                                                src="./css/img/gallery_4.png" alt="img" /><img
                                                 class="gallery__img--hover" src="./css/img/gallery_360.png"
                                                 alt="img" /></span></div>
                                 </div>
-                                <div class="col-6 pl-1">
-                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"><img
-                                                class="gallery__img" src="./css/img/gallery_5.png" alt="img" /><img
+                                <div
+                                    class="col-xl-6 col-lg-6 col-md-6 pr-xl-0 pl-lg-1 pl-md-1 pl-sm-1 col-sm-6 col-12 mb-2 mb-md-0">
+                                    <div class="gallery__item gallery__item--small"><span class="gallery__link"
+                                            data-fancybox="gallery"
+                                            data-caption="Photo by picjumbo.com from Pexels"><img class="gallery__img"
+                                                src="./css/img/gallery_5.png" alt="img" /><img
                                                 class="gallery__img--hover" src="./css/img/gallery_360.png"
                                                 alt="img" /></span></div>
                                 </div>
@@ -298,45 +317,52 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallery__bottom d-flex justify-content-center">
-                    <a class="btn-6 gotmmedium" href="javascript:void(0 )">SEE MORE<span></span></a>
-                </div>
+                <div class="text-center d-flex justify-content-center"><a href="javascript:void(0)"
+                        class="btn-6 gotmmedium">SEE MORE
+                        <span></span></a></div>
             </div>
         </div>
     </div>
     <div class="map" id="map"></div>
     <footer class="footer">
-        <div class="container">
-            <div class="contact">
-                <div class="contact__wrapper">
-                    <div class="row">
-                        <div class="col-12">
-                            <hr class="contact__line" />
-                            <h2 class="contact__title">get in touch</h2>
+        <div class="container container--lg">
+            <div class="footer__contact-wrapper d-flex justify-content-center">
+                <div class="contact" id="contact">
+                    <div class="contact__wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-12">
+                                <hr class="contact__line" />
+                                <h2 class="contact__title">get in touch</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6"><a class="contact__link" href="https://www.google.com/maps?q=Brooklyn"
-                                target="_blank"><i class="fas fa-map-marker-alt contact__icon"></i>
-                                <p class="contact__info">91 Nolan Extension Suite 670</p>
-                            </a><a class="contact__link" href="+001-356-868-2454" target="_blank"><i
-                                    class="fas fa-phone-alt contact__icon"></i>
-                                <p class="contact__info">+001 356-868-2454</p>
-                            </a><a class="contact__link" href="mailto:gahuy93@gmail.com" target="_blank"><i
-                                    class="fas fa-inbox contact__icon"></i>
-                                <p class="contact__info">gahuy93@gmail.com</p>
-                            </a><a class="contact__link" href="tel:+001-356-868-2454" target="_blank"><i
-                                    class="fas fa-clock contact__icon"></i>
-                                <p class="contact__info">From 07:05 AM to 19:30 PM</p>
-                            </a></div>
-                        <div class="col-6">
-                            <form class="contact__form" action="" id="form">
-                                <input class="contact__input" type="text" name="text" id="text" placeholder="Your name"
-                                    required="required" />
-                                <input class="contact__input" type="email" name="email" id="email" placeholder="Email"
-                                    required="required" />
-                                <input class="contact__submit" type="submit" value="submit" />
-                            </form>
+                        <div class="row no-gutters">
+                            <div class="col-md-6 col-sm-12 col-12 order-md-1 order-2">
+                                <div class="contact__link-info d-md-block d-flex flex-column align-items-center"><a
+                                        class="contact__link" href="https://www.google.com/maps?q=Brooklyn"
+                                        target="_blank"><i class="fas fa-map-marker-alt contact__icon"></i>
+                                        <p class="contact__info">91 Nolan Extensions Suite 670</p>
+                                    </a><a class="contact__link" href="+001-356-868-2454" target="_blank"><i
+                                            class="fas fa-phone-alt contact__icon"></i>
+                                        <p class="contact__info">+001 356-868-2454</p>
+                                    </a><a class="contact__link" href="mailto:gahuy93@gmail.com" target="_blank"><i
+                                            class="fas fa-inbox contact__icon"></i>
+                                        <p class="contact__info">gahuy93@gmail.com</p>
+                                    </a><a class="contact__link" href="tel:+001-356-868-2454" target="_blank"><i
+                                            class="fas fa-clock contact__icon"></i>
+                                        <p class="contact__info">From 07:05AM to 19:30PM</p>
+                                    </a></div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-12 order-md-2 order-1">
+                                <form class="contact__form d-md-block d-flex flex-column align-items-center" action=""
+                                    id="form">
+                                    <input class="contact__input" type="text" name="text" id="text"
+                                        placeholder="Your name" required="required" />
+                                    <input class="contact__input" type="email" name="email" id="email"
+                                        placeholder="Email" required="required" />
+                                    <input class="contact__submit" type="submit" value="submit"
+                                        data-aos="zoom-in-right" />
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -344,11 +370,14 @@
             <div class="footer__wrapper">
                 <div class="footer__top">
                     <div class="row">
-                        <div class="col-3 offset-2"><a class="footer__link" href="#">
+                        <div
+                            class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-2 col-md-3 offset-md-2 col-sm-12 d-md-block d-sm-flex justify-content-sm-center col-12 justify-content-center d-flex">
+                            <a class="footer__link" href="#">
                                 <svg class="icons icons--footer footer__icon">
                                     <use class="footer__icon-use" xlink:href="#icon-monticello-logo"></use>
                                 </svg></a></div>
-                        <div class="col-3 offset-3 d-flex align-items-center">
+                        <div
+                            class="col-xl-3 offset-xl-3 col-lg-4 offset-lg-3 col-md-4 offset-md-3 d-flex align-items-center justify-content-sm-center col-12 justify-content-center justify-content-md-start">
                             <div class="footer__socials d-flex justify-content-between"><a class="footer__circle"
                                     href="https://www.facebook.com/" target="_blank"><i
                                         class="fab fa-facebook-f footer__social-icon"></i></a><a class="footer__circle"
@@ -361,18 +390,29 @@
                 </div>
                 <div class="footer__bottom">
                     <div class="row">
-                        <div class="col-5 offset-2">
-                            <div class="footer__info">Copyrights &copy; 2017 Monticello</div><a class="footer__author">
-                                <div class="footer__author-info">Made with <i
+                        <div
+                            class="col-xl-5 offset-xl-2 col-lg-7 offset-lg-2 col-md-7 offset-md-2 col-sm-12 col-12 d-sm-flex align-items-sm-center d-md-block justify-content-sm-around d-flex justify-content-center">
+                            <div class="footer__info">Copyrights &copy; 2017 Monticello</div><a
+                                class="footer__author d-sm-flex d-md-inline-block align-items-sm-center justify-content-sm-between d-none"
+                                href="#">
+                                <div class="footer__author-info">Made with&nbsp;<i
                                         class="fas fa-heart footer__heart-icon"></i></div>
                                 <div class="footer__author-info">by Ga Huy</div>
                             </a>
                         </div>
+                        <div class="col-12 d-sm-none d-flex justify-content-center"><a
+                                class="footer__author d-sm-flex d-md-inline-block align-items-sm-center justify-content-sm-between"
+                                href="#">
+                                <div class="footer__author-info">Made with&nbsp;<i
+                                        class="fas fa-heart footer__heart-icon"></i></div>
+                                <div class="footer__author-info">by Ga Huy</div>
+                            </a></div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?&amp;callback=initMap" async="async" defer="defer"></script>
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>

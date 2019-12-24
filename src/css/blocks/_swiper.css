@@ -52,8 +52,9 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  position: absolute;
   right: 114px;
-  bottom: 202px;
+  bottom: 445px;
   z-index: 2; }
 
 .swiper-button-prev-go {
@@ -71,8 +72,9 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  position: absolute;
   left: 116px;
-  bottom: 202px;
+  bottom: 445px;
   z-index: 2; }
 
 .swiper-button-next-go:hover {
