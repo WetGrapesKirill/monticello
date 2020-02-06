@@ -1,0 +1,36 @@
+mixin footer
+    footer.footer
+        .container.container--lg
+            .footer__contact-wrapper
+                +contact
+            .footer__wrapper
+                .footer__top
+                    .row
+                        .col-xl-3.offset-xl-2.col-lg-3.offset-lg-2.col-md-3.offset-md-2.col-sm-12.d-md-block.d-sm-flex.justify-content-sm-center.col-12.justify-content-center.d-flex
+                            a.footer__link(href=`#`)
+                                svg.icons.icons--footer.footer__icon
+                                    use.footer__icon-use(xlink:href="#icon-monticello-logo")
+                        .col-xl-3.offset-xl-3.col-lg-4.offset-lg-3.col-md-4.offset-md-3.d-flex.align-items-center.justify-content-sm-center.col-12.justify-content-center.justify-content-md-start
+                            .footer__socials.d-flex.justify-content-between
+                                a.footer__circle(href="https://www.facebook.com/", target='_blank')
+                                    i.fab.fa-facebook-f.footer__social-icon
+                                a.footer__circle(href="https://twitter.com/", target='_blank')
+                                    i.fab.fa-twitter.footer__social-icon
+                                a.footer__circle(href="https://www.instagram.com/", target='_blank')
+                                    i.fab.fa-instagram.footer__social-icon
+                .footer__bottom
+                    .row
+                        .col-xl-5.offset-xl-2.col-lg-7.offset-lg-2.col-md-7.offset-md-2.col-sm-12.col-12.d-sm-flex.align-items-sm-center.d-md-block.justify-content-sm-around.d-flex.justify-content-center
+                            .footer__info Copyrights &copy; 2017 Monticello
+                            a.footer__author(href=`#`).d-sm-flex.d-md-inline-block.align-items-sm-center.justify-content-sm-between.d-none
+                                .footer__author-info Made with&nbsp;
+                                    i.fas.fa-heart.footer__heart-icon
+                                .footer__author-info &nbsp;by Ga Huy
+                        .col-12.d-sm-none.d-flex.justify-content-center
+                            a.footer__author(href=`#`).d-sm-flex.d-md-inline-block.align-items-sm-center.justify-content-sm-between
+                                    .footer__author-info Made with&nbsp;
+                                        i.fas.fa-heart.footer__heart-icon
+                                    .footer__author-info &nbsp;by Ga Huy
+
+
+            

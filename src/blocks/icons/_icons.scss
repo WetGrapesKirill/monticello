@@ -1,0 +1,29 @@
+.icons {
+    display: inline-block;
+    stroke-width: 0;
+
+    &--news {
+        color: #fff;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 0;
+        pointer-events: none;
+        top: 32%;
+        left: 39%;
+    }
+
+    &--footer {
+        color: #fff;
+        width: 240px;
+        height: 57px;
+    }
+
+    &--nav {
+        color: #fff;
+        width: 240px;
+        height: 57px;
+    }
+
+
+  }

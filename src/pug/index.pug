@@ -1,0 +1,35 @@
+include ../blocks/page/_page.pug
+include ../pug/icons.svg
+include ../blocks/nav/_nav.pug
+include ../blocks/header/_header.pug
+include ../blocks/projects/_projects.pug
+include ../blocks/news/_news.pug
+include ../blocks/gallery/_gallery.pug
+include ../blocks/map/_map.pug
+include ../blocks/contact/_contact.pug
+include ../blocks/footer/_footer.pug
+include ../blocks/btn/_btn.pug
+include ../blocks/icons/_icons.pug
+include ../blocks/picture/_picture.pug
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="description", content="Monticello project")
+        title Monticello
+        link(rel="shortcut icon" type="image/x-icon" href="./favicon.ico")
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
+        link(rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css")
+        link(rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="")
+        link(rel="stylesheet", href="./css/style.css")
+    body
+        +page
+
+        script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+        script(src='https://kit.fontawesome.com/f811e9d5c2.js' crossorigin='anonymous')
+        script(src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin="")
+        script(src='./js/modernizr-custom.js')
+        script(src='./js/bundle.js')

@@ -1,3 +1,11 @@
-@import 'reset.scss';
-@import './bootstrap/bootstrap-grid.scss';
-@import 'blocks.scss';
+@import '../../node_modules/reset.scss/reset.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '../../node_modules/aos/src/sass/aos.scss';
+
+// FONTS
+@import 'fonts';
+
+@import 'base';
+
+@import 'blocks';
+

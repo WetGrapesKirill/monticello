@@ -1,0 +1,13 @@
+.map {
+    max-height: 700px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+    @media screen and (max-width: 767px) {
+        width: 80%;
+        margin: 0 auto
+    }
+}

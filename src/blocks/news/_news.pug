@@ -1,0 +1,88 @@
+mixin news
+    .news#news
+        .container.container--lg
+            .news__wrapper
+                .news__heading
+                    .row
+                        .col-12
+                            hr.news__line
+                            h2.news__title Latest News
+                    .row
+                        .swiper-container.news__slider-container
+                            .swiper-wrapper
+                                .swiper-slide.news__slide
+                                        .news__slide-top
+                                            +picture("news_1", "png", "picture of a building").news__slide-img
+                                            svg.icons.icons--news.news__slide-img--hover
+                                                use(xlink:href="#icon-plus")    
+                                        .news__slide-middle
+                                            h3.news__slide-heading See The Unmatched Beauty Of The Great.
+                                            p.news__slide-paragraph Free directories: directories are perfect for customers that are... searching for
+                                        .news__slide-bottom.d-flex
+                                            .news__slide-photo
+                                            .news__slide-subparagraph
+                                                h4.news__slide-subtitle Isaac Dunn
+                                                p.news__slide-date 09 Feb 2017
+                                .swiper-slide.news__slide
+                                    .news__slide
+                                        .news__slide-top
+                                            +picture("news_2", "png", "picture of a building").news__slide-img
+                                            svg.icons.icons--news.news__slide-img--hover
+                                                use(xlink:href="#icon-plus")
+                                        .news__slide-middle
+                                            h3.news__slide-heading Effective Advertising Pointers.
+                                            p.news__slide-paragraph Having a home based business is a wonderful asset to your life
+                                        .news__slide-bottom.d-flex
+                                            .news__slide-photo.news__slide-photo--second
+                                            .news__slide-subparagraph
+                                                h4.news__slide-subtitle Dominic Freeman
+                                                p.news__slide-date 24 Apr 2017
+                                .swiper-slide.news__slide
+                                    .news__slide
+                                        .news__slide-top
+                                            +picture("news_3", "png", "picture of a building").news__slide-img
+                                            svg.icons.icons--news.news__slide-img--hover
+                                                use(xlink:href="#icon-plus")
+                                        .news__slide-middle
+                                            h3.news__slide-heading Hypnotize Yourself Into The Ghost.
+                                            p.news__slide-paragraph There are many things that are important to catalog design...
+                                        .news__slide-bottom.d-flex
+                                            .news__slide-photo.news__slide-photo--third
+                                            .news__slide-subparagraph
+                                                h4.news__slide-subtitle Alice Ward
+                                                p.news__slide-date 30 Dec 2017
+                                .swiper-slide.news__slide
+                                    .news__slide
+                                        .news__slide-top
+                                            +picture("news_1", "png", "picture of a building").news__slide-img
+                                            svg.icons.icons--news.news__slide-img--hover
+                                                use(xlink:href="#icon-plus")
+                                        .news__slide-middle
+                                            h3.news__slide-heading Lorem ipsum dolor sit amet 
+                                            p.news__slide-paragraph Lorem ipsum dolor sit, amet consectetur adipisicin
+                                        .news__slide-bottom.d-flex
+                                            .news__slide-photo
+                                            .news__slide-subparagraph
+                                                h4.news__slide-subtitle Isaac Dunn
+                                                p.news__slide-date 09 Feb 2017
+                                .swiper-slide.news__slide
+                                    .news__slide
+                                        .news__slide-top
+                                            +picture("news_2", "png", "picture of a building").news__slide-img
+                                            svg.icons.icons--news.news__slide-img--hover
+                                                use(xlink:href="#icon-plus")
+                                        .news__slide-middle
+                                            h3.news__slide-heading Lorem ipsum dolor sit amet 
+                                            p.news__slide-paragraph Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, illo?
+                                        .news__slide-bottom.d-flex
+                                            .news__slide-photo.news__slide-photo--second
+                                            .news__slide-subparagraph
+                                                h4.news__slide-subtitle Dominic Freeman
+                                                p.news__slide-date 24 Apr 2017
+                        .swiper-button-prev-go.news__slide-arrow-prev
+                            i.fas.fa-angle-left.news__slide-arrow
+                        .swiper-button-next-go.news__slide-arrow-next
+                            i.fas.fa-angle-right.news__slide-arrow   
+                .news__slide-utilities
+                    .swiper-pagination.news__slide-pagination
+                                

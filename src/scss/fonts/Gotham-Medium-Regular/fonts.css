@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'gothammedium';
-	src: url('./gotham-medium-webfont.woff2');
-	src: local('gothammedium'), url('./gotham-medium-webfont.woff') format('woff'), url('./Gotham\ Medium\ Regular.ttf') format('truetype');
-}
-.gotmmedium {
-	font-family: 'gothammedium' !important;
-}

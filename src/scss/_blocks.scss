@@ -1,12 +1,11 @@
-@import"./blocks/btn";
-@import"./blocks/bg";
-@import"./blocks/project";
-@import"./blocks/global";
-@import"./blocks/title";
-@import"./blocks/btn6";
-@import"./blocks/gallery";
-@import"./blocks/news";
-@import"./blocks/swiper";
-@import"./blocks/footer";
-@import"./blocks/contact";
-@import"./blocks/map"
+@import '../blocks/page/page';
+@import '../blocks/nav/nav';
+@import '../blocks/header/header';
+@import '../blocks/projects/projects';
+@import '../blocks/news/news';
+@import '../blocks/gallery/gallery';
+@import '../blocks/map/map';
+@import '../blocks/contact/contact';
+@import '../blocks/footer/footer';
+@import '../blocks/btn/btn';
+@import '../blocks/icons/icons';
